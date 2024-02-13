@@ -46,7 +46,7 @@ body{
     background-color: #fcfcfc;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
     top: 0;
-    padding: 1.5rem 3.5rem;
+    padding: 1.1rem 3.2rem;
     width: 100%;
     left: 0;
     position: fixed;
@@ -75,10 +75,9 @@ nav ul li {
 
 .sobreMi{
     margin: 100px auto;
-    width: 100%;
     background-color: rgb(240, 240, 240);
     padding: 20px;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .sobreMi img{
