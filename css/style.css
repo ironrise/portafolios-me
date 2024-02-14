@@ -64,7 +64,7 @@ nav a {
 .barra-navegacion ul{
     display: flex;
     gap: 1.7rem;
-    margin-left: 60%;
+    margin-left: 50%;
 }
 
 nav ul li {
