@@ -20,6 +20,7 @@
 *{
     margin: 0;
     padding: 0
+    
 }
 
 
@@ -92,9 +93,14 @@ nav ul li {
 }
 
 /*main*/
+/*sobremi*/
 .sobremi{
   width: 940px;
   margin: 240px auto;
+}
+
+.sobremi img{
+  border-radius: 5px;
 }
 
 .principal{
@@ -108,5 +114,63 @@ nav ul li {
 
 .principal p{
   margin-top: 10px;
+}
+/*servicios*/
+
+#services {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container h2{
+  text-align: left;
+  
+}
+
+.service {
+  margin-bottom: 40px;
+
+}
+
+.service h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+}
+
+
+/*footer*/
+#contacto {
+  padding: 20px; /* Reducir el relleno del footer */
+  background-color: #f9f9f9; /* Agregar un color de fondo para visualizar mejor el footer */
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+.socials {
+  margin-bottom: 20px; /* Reducir el margen inferior */
+}
+
+.socials a {
+  margin-right: 10px; /* Espacio entre los iconos sociales */
+}
+
+.copy {
+  text-align: center;
+}
+
+.socials hr{
+  width: 14%;
 }
 
