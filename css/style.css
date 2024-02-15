@@ -24,6 +24,7 @@
 }
 
 
+
 ul {
     list-style-type: none;
   }
@@ -39,8 +40,10 @@ ul {
 
 body{
     background: whitesmoke;
-     font-family: var(--font-family);
-
+    font-family: var(--font-family);
+    position: relative;
+    padding-bottom: 150px;
+    min-height: 100vh;
 }
 
 header{
@@ -156,7 +159,12 @@ nav ul li {
   padding: 20px; /* Reducir el relleno del footer */
   background-color: #f9f9f9; /* Agregar un color de fondo para visualizar mejor el footer */
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2); /* Sombra */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
+
+
 
 .socials {
   margin-bottom: 20px; /* Reducir el margen inferior */
