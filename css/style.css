@@ -127,7 +127,7 @@ nav ul li {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 940px;
   margin: 0 auto;
   text-align: center;
 }
@@ -162,7 +162,7 @@ nav ul li {
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2); /* Sombra */
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 940px;
 }
 
 
