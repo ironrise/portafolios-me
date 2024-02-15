@@ -44,6 +44,7 @@ body{
     position: relative;
     padding-bottom: 150px;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 header{
@@ -122,11 +123,11 @@ nav ul li {
 /*servicios*/
 
 #services {
+
   
-  padding: 50px 0;
   width: 940px;
   margin: 0 auto;
-  padding: 15em;
+  
 }
 
 .container {
@@ -163,7 +164,7 @@ nav ul li {
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
   position: absolute;
   border-bottom: 0;
-  width: 97%;
+  width: 100%;
   
 }
 
