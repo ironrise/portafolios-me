@@ -99,7 +99,8 @@ nav ul li {
 /*sobremi*/
 .sobremi{
   width: 940px;
-  margin: 240px auto;
+  margin: 0 auto;
+  padding: 15em;
 }
 
 .sobremi img{
