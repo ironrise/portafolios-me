@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="js/script.js">
     <title>Jose Pastore | Jr Web Developer/Sr Soporte de TI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 
 <body>
@@ -18,16 +19,16 @@
                     <li><a href="#aboutMe">Sobre mi</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#services">Servicios</a></li>
-                    <li><a href="#proyectos">Proyectos</a></li>
-                    <li><a href="#logros">Logros</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#contact">Contacto</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <main>
-        <section class="sobremi" id="aboutMe">
 
+    <main>
+
+        <section class="sobremi" id="aboutMe">
+            <h2>Sobre mi</h2>
             <img src="imgs/07892f68-92e4-4ed7-adb0-89e17ca8aac6.png" alt="me" class="me">
             <div class="principal">
                 <h2>Jr Web Developer | Sr Soporte de TI</h2>
@@ -41,40 +42,96 @@
                     mercado. Mi experiencia también abarca la configuración y gestión de redes, con especial énfasis en
                     tecnología UniFi. Mi combinación de habilidades me posiciona como un profesional de TI versátil y
                     competente, con un gran potencial para seguir creciendo en mi campo. Ademas cuento con varias
-                    certificaciones que podras visualizar en mi perfil de Linkeding en la seccion de <a
-                        href="#contactos">Contacto</a>.
+                    certificaciones que podras visualizar en mi perfil de <a href="#in">linkedin</a>
                 </p>
             </div>
         </section>
-        <section class="skills" id="skills">
 
+        <section id="skills">
+            <div class="container-skills">
+                <h2>Habilidades</h2>
+                <div class="skill">
+                    <img src="imgs/database-solid (1).svg" alt="SQL Icon">
+                    <h3>SQL</h3>
+                    <p>Experiencia avanzada en SQL para administración y consultas de bases de datos.</p>
+                </div>
+                <div class="skill">
+                    <div class="tecnologias">
+                        <img src="imgs/html5 (1).svg" alt="HTML/CSS Icon"><img src="imgs/css3-alt (1).svg" alt="">
+                        <h3>HTML/CSS</h3>
+                        <p>Conocimientos sólidos en HTML y CSS para el desarrollo de sitios web.</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="tecnologias">
+                        <img src="imgs/php (1).svg" alt="php"> <img src="imgs/js (1).svg" alt="js"> <img src="imgs/java.svg"
+                            alt="java">
+                        <h3>PHP/JS/Java</h3>
+                        <p>Conocimientos básicos en PHP, JavaScript y Java para desarrollo web.</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="imgs/laptop-solid (1).svg" alt="Hardware Icon">
+                    <h3>Hardware</h3>
+                    <p>Conocimientos avanzados en hardware de PC y portátiles de todas las gamas.</p>
+                </div>
+                <div class="skill">
+                    <img src="imgs/network-wired-solid (1).svg" alt="Networking Icon">
+                    <h3>Networking</h3>
+                    <p>Experiencia en configuración y gestión de redes, especialmente con tecnología UniFi.</p>
+                </div>
+            </div>
         </section>
-        <section id="services">
+
+        <section id="services" class="servic">
             <div class="container">
                 <h2>Servicios</h2>
                 <div class="service">
                     <h3>Soporte en TI</h3>
                     <p>Ofrezco servicios de soporte técnico en tecnologías de la información, incluyendo diagnóstico y
                         resolución de problemas en hardware y software, asesoramiento tecnico para compras de equipos
-                        informaticos de todas las gamas disponibles en el mercado, Ensamble, mantenimiento y reparacion de PC y notebook, instalacion de todo tipo de software ya sea 
+                        informaticos de todas las gamas disponibles en el mercado, Ensamble, mantenimiento y reparacion
+                        de PC y notebook, instalacion de todo tipo de software ya sea
                         sistemas operativos, Diseño grafico e ingenieria, entre otros.</p>
                 </div>
                 <div class="service">
                     <h3>Desarrollo Web</h3>
-                    <p>Ofrezco servicios de desarrollo web para que ofrezcas tus servicios al publico, en un nivel junior, incluyendo creación y mantenimiento de
+                    <p>Ofrezco servicios de desarrollo web para que ofrezcas tus servicios al publico, en un nivel
+                        junior, incluyendo creación y mantenimiento de
                         sitios web utilizando HTML, CSS, y conocimientos básicos de PHP, JavaScript y Java.</p>
                 </div>
             </div>
         </section>
+        <div class="form-contacto" id="contact">
+            <h2>Ponte en contacto conmigo!!</h2>
+            <form action="index.html" method="post">
+                <img src="imgs/l97bresp.png" alt="tecnologías" class="tec">
 
+                <label for="nameLastName">Nombre y Apellido: </label>
+                <input type="text" id="nameLastName" class="input-padron" required>
 
+                <label for="mail">Correo Electronico: </label>
+                <input type="email" id="mail" class="input-padron" placeholder="email@dominio.com" required>
+
+                <label for="phone">Telefono: </label>
+                <input type="tel" id="phone" class="input-padron" placeholder="098XXXXXXX" required>
+
+                <label for="msj">Mensaje: </label>
+                <textarea name="msj" id="msj" cols="70" rows="10" class="input-padron"></textarea required>
+
+                
+                <input type="submit" value="Enviar" class="enviar">
+
+            </form>
+        </div>
     </main>
+    
     <footer id="contacto">
         <!-- Social accounts - Fixed to the right -->
         <div class="socials">
             <a href="#" target="_blank"><img width="48" height="48"
                     src="https://img.icons8.com/color/48/instagram-new--v1.png" alt="instagram-new--v1" /></a>
-            <a href="#" target="_blank"><img width="48" height="48" src="https://img.icons8.com/color/48/linkedin.png"
+            <a class="in" href="https://py.linkedin.com/in/jose-pastore-8835a2224" target="_blank"><img width="48" height="48" src="https://img.icons8.com/color/48/linkedin.png"
                     alt="linkedin" /></a>
             <a href="#" target="_blank"><img width="48" height="48" src="https://img.icons8.com/color/48/github--v3.png"
                     alt="github--v3" /></a>
