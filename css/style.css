@@ -185,3 +185,82 @@ nav ul li {
 .socials hr{
   width: 14%;
 }
+
+/*responsive*/
+@media screen and (max-width: 480px) {
+
+h2{
+  text-align: center;
+}
+
+nav{
+  position: static;
+}
+
+.caja{
+  width: auto;
+  
+}
+
+.sobremi{
+  width: auto;
+  padding: 0;
+  margin-top: 200px;
+
+}
+
+.sobremi img{ 
+  display: block;
+  margin: 10px auto; /* Centra la imagen horizontalmente */
+  width: 50%; /* Hace que la imagen ocupe el 50% del ancho del contenedor */
+}
+
+.principal{
+  font-size: 14px;
+  width: 70%;
+  display: block;
+  float: none;
+  margin: 20px auto;
+}
+
+#skills{
+  padding: 0;
+  margin-top: 2em;
+}
+
+#services{
+  width: auto;
+  padding: 0;
+}
+
+#services h2{
+  text-align: center;
+}
+
+.service{
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-contacto{
+  width: auto;
+  padding: 0;
+}
+
+form{
+  width: 70%;
+}
+
+.form-contacto h2{
+  text-align: center;
+  
+}
+
+.tec{
+  width: 25%;
+  float: right;
+  margin-top: 20px;
+}
+
+}
